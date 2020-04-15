@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6b
+}
+a {
+	text-decoration: none;
+}
+
+/*clearfix*/
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+
+.main-visual {
+	width: 100%;
+	height: 650px;
+	background-image: url("img/mv.png");
+	background-size: cover;
+	background-position: center;
+}
+
+main {}
+.portfolio {
+	width: inherit;
+	background-color: #ECEFF1;
+}
+.feature {
+	width: inherit;
+}
+.profile {
+	width: inherit;
+	background-color: #ECEFF1;
+}
+.contact {
+	width: inherit;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+}
