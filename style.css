@@ -51,6 +51,19 @@ header {
 	background-image: url("img/mv.png");
 	background-size: cover;
 	background-position: center;
+	font-size: 64px;
+	color: #FAFAFA;
+	text-align: center;
+}
+.mv-title {
+	font-size: 64px;
+	color: #FAFAFA;
+	padding-top: 200px;
+}
+.mv-text {
+	font-size: 20px;
+	color: #FAFAFA;
+	padding-top: 10px;
 }
 
 main {}
