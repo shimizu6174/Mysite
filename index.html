@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<script src="https://kit.fontawesome.com/2ebf6835fe.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>MySite</title>
@@ -12,11 +13,13 @@
 	<!-- header -->
 	<header>
 		<div class="header-container clearfix">
-			<img src="img/logo.png" class="logo">
+			<a href="#main-visual">
+				<img src="img/logo.png" class="logo">
+			</a>
 			<nav class="header-nav">
 				<ul class="nav-list">
 					<li>
-						<a href="#prtforio" class="nav-text">Portforio</a>
+						<a href="#portfolio" class="nav-text">Portforio</a>
 					</li>
 
 					<li>
@@ -28,9 +31,11 @@
 					</li>
 
 					<li>
-						<a href="contact" class="nav-text">Contact</a>
+						<a href="#contact" class="nav-text">Contact</a>
 					</li>
 				</ul>
+
+				<i class="fa fa-bars menu-icon"></i>
 			</nav>
 		</div>
 	</header>
@@ -43,7 +48,7 @@
 
 	<!-- portforio -->
 	<section id="portfolio">
-		<div class="portfolio-container">
+		<div class="section-container portfolio-container">
 			<h1 class="section-title">Portfolio</h1>
 			<p class="section-text">
 				It is long established fact that a reader will be distracted by the readable<br>
@@ -61,7 +66,7 @@
 
 	<!-- feature -->
 	<section id="feature">
-		<div class="feature-container">
+		<div class="section-container feature-container">
 			<h1 class="section-title">Feature</h1>
 			<p class="section-text">
 				It is a long established fact that a reader will be distracted by the readable<br>
@@ -118,7 +123,7 @@
 
 	<!-- profile -->
 	<section id="profile">
-		<div class="profile-container clearfix">
+		<div class="section-container profile-container clearfix">
 			<h1 class="section-title">Profile</h1>
 			<p class="section-text">
 				It is a long established fact that a reader will be distracted by the readable<br>
@@ -142,11 +147,11 @@
 				</p>
 			</div>
 		</div>
-	</secton>
+	</section>
 
 	<!-- contact -->
 	<section id="contact">
-		<div class="contact-container clearfix">
+		<div class="section-container contact-container clearfix">
 			<h1 class="section-title">Contact</h1>
 			<p class="section-text">
 				It is a long established fact that a reader will be distracted by the readable<br>
@@ -165,9 +170,9 @@
 			<div class="right-box">
 				<div class="sns-box">
 					<h2 class="contact-title">SNS</h2>
-					<i class="fa fa-facebook"></i>
-					<i class="fa fa-twitter"></i>
-					<i class="fa fa-instagram"></i>
+					<i class="fa fa-facebook contact-icon"></i>
+					<i class="fa fa-twitter contact-icon"></i>
+					<i class="fa fa-instagram contact-icon"></i>
 				</div>
 			</div>
 		</div>
